@@ -26,7 +26,7 @@ async def on_ready():
     print("We have logged in as {0.user}".format(client))
 
 @client.command()
-async def record(ctx):
+async def deaths(ctx):
     em = discord.Embed(
         title="Death Tracker",
         colour=0xf7f9f2)
