@@ -1,7 +1,6 @@
 import discord
 import os
 from dotenv import load_dotenv, find_dotenv
-from discord.client import _ClientEventTask
 from discord.ext import commands
 from pymongo import MongoClient
 import pymongo
