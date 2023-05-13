@@ -62,10 +62,10 @@ async def on_message(message):
 async def on_message(message):
     username = str(message.author).split('#')[0]
     user_message = str(message.content)
-    channel = str(message.channel.name)
+    # channel = str(message.channel.name)
 
     if (username == 'Frosty_Dad'):
-        await message.channel.send('shut up')
+        await message.author.send('shut up')
 
     await client.process_commands(message)    
 
